@@ -1,0 +1,144 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-color: #0D0B24;
+  color: #F8F7FF;
+}
+
+#top {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#top h1 {
+  text-align: center;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid #FFD32A;
+  font-size: 2.6rem;
+  cursor: default;
+}
+
+#sec {
+  padding: 1rem;
+  background-color: #1C1737;
+  width: 40rem;
+  border: 1px solid #40305F;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  margin-top: 1rem;
+  cursor: default;
+}
+
+main {
+  padding: 1.2rem;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+  margin-top: -21px;
+}
+
+#mainForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #40305F;
+  border-radius: 2%;
+  width: 30rem;
+  padding: 0.6rem;
+  background-color: #17112F;
+  cursor: default;
+}
+
+.content {
+  padding: 1rem;
+  margin: 0.4rem;
+  background-color: #1C1737;
+  border-radius: 0.4rem;
+  border: 1px solid #40305F;
+  color: #C9C4D8;
+}
+
+.content select {
+    width: 16.3rem;
+}
+
+.contentInput {
+  width: 10rem;
+  border-radius: 0.2rem;
+  height: 1.2rem;
+  background-color: #1C1737;
+  color: #C9C4D8;
+}
+
+#email {
+  margin: 0.4rem;
+}
+
+input:focus {
+  outline: 2px solid #B47AFF;
+  outline-offset: 2px;
+}
+
+select {
+  border: 2px solid #40305F;
+  cursor: pointer;
+}
+
+.options {
+  width: 100%;
+}
+
+.contentGender {
+  margin: 1rem;
+}
+
+.contentGender label {
+  margin: 0.4rem;
+}
+
+.gender {
+  margin: 0.5rem;
+  color: #17112F;
+}
+
+.btn {
+  border-radius: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 8px #FFD32A;
+  transition: 0.3s ease;
+  margin-left: 1rem;
+  background-color: #FFD32A;
+  width: 12rem;
+}
+
+.btn:hover {
+  background-color: #EAB900;
+  box-shadow: 0 0 20px #FFD32A;
+}
+
+#rodape {
+  border-top: 1px solid #7739B5;
+  padding-top: 1.5rem;
+  width: 50%;
+  margin: 3rem auto 0;
+  text-align: center;
+}
+
+span{
+  padding: 1rem;
+}

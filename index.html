@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+  crossorigin="anonymous">
+   </script>
+    <title>Atividade</title>
+  </head>
+  <body>
+    <header id="top">
+      <i class="fa-solid fa-graduation-cap" style="font-size: 3rem; color: #B47AFF; border: 1px solid #B47AFF; border-radius: 3rem; padding: 1rem;"></i> 
+      <h1>Site Oficial</h1>
+      <section id="sec">
+        <h4>Site oficial do aluno Arthur dos Santos, estudante da Unipê.
+          <br/> Este site não é para fins lucrativos e apenas serve para <br/> atividade dentro de sala de aula.
+        </h4>
+      </section>
+    </header>
+    <main>
+      <div id="box">
+        <form id="mainForm">
+          <h1>
+            <i class="fa-solid fa-clipboard-list" style="color: #B47AFF;"></i>
+            Formulário de Registro
+          </h1>
+          <div class="content">   
+            <i class="fa-solid fa-user" style="color: #B47AFF;"></i>
+            <label>Nome:</label>
+            <input class ="contentInput" id="name" type="text" placeholder="Digite o seu nome">
+          </div>
+          <div class="content">
+             <i class="fa-solid fa-envelope" style="color: #B47AFF;"></i> 
+             <label>Email:</label>
+            <input class="contentInput" type="email" name="email" id="email" placeholder="Digite seu email">
+          </div>
+          <div class="content">
+            <i class="fa-solid fa-phone" style="color: #B47AFF;"></i>
+            <label>Telefone: </label>
+            <input class="contentInput" type="text" name="number" id="number" placeholder="Digite seu número">
+          </div>
+          <div class="content">
+            <i class="fa-solid fa-graduation-cap" style="color: #B47AFF;"></i> 
+            <label>Curso:</label>
+            <select class="contentInput" type="text" name="curso" placeholder="Escolha o seu curso" required>
+              <option value="" disabled selected>Escolha uma opção</option>
+              <option class="options" value="ads">Análise e Desenvolvimento de Sistemas</option>
+              <option class="options" value="ciencia">Ciência da Computação</option>
+              <option class="options" value="edfisica">Educação Física</option>
+              <option class="options" value="direito">Direito</option>
+              <option class="options" value="psicologia">Psicologia</option>
+              <option class="options" value="gastronomia">Gastronomia</option>
+              <option class="options" value="med">Medicina</option>
+              <option class="options" value="veterinaria">Medicina Veterinária</option>
+            </select>
+          </div>
+          <div class="contentGender"> 
+            <div class="content">
+            <i class="fa-solid fa-users" style="color: #B47AFF;"></i><label>Gênero:</label>
+            <label>Masculino</label>
+            <input type="radio" name="gender" class="gender" value="1" required> 
+            <label>Feminino</label>
+            <input type="radio" name="gender" value="2" class="gender" required>
+          </div>
+            </div>
+            <div class="content">
+            <button class="btn" type="submit">
+            <i class="fa-solid fa-user-check"></i>
+              Registrar
+            </button>
+        </div>
+      </form>
+    </div>
+    </main>
+    <footer id="rodape">
+      <span>
+        <i class="fa-solid fa-shield-halved"></i>
+        Todos os direitos reservados.©
+      </span>
+    </footer>
+  </body>
+</html>
+<script src="script.js"></script>
